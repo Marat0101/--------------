@@ -28,12 +28,6 @@ const Type = sequelize.define('type',{
     name:{type:DataTypes.STRING,unique:true, allowNull:false}
 })
 
-const UslugaInfo = sequelize.define('usluga_info',{
-    id:{type: DataTypes.INTEGER, primaryKey: true, autoIncrement:true},
-    title:{type:DataTypes.STRING, allowNull:false},
-    desscription:{type:DataTypes.STRING, allowNull:false}
-})
-   
 const Rating = sequelize.define('rating',{
     id:{type: DataTypes.INTEGER, primaryKey: true, autoIncrement:true},
     rate:{type:DataTypes.INTEGER, allowNull:false},
@@ -41,9 +35,6 @@ const Rating = sequelize.define('rating',{
 })
 User.hasOne(Basket)
 Basket.belongsTo(User)
-
-Usluga.hasOne(UslugaInfo)
-UslugaInfo.belongsTo(Usluga)
 
 Basket.hasMany(BasketUsluga)
 BasketUsluga.belongsTo(Basket)
@@ -66,8 +57,7 @@ module.exports = {
     BasketUsluga,
     Usluga,
     Type,
-    Rating,
-    UslugaInfo
+    Rating
 }
 
 
