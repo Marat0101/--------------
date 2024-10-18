@@ -1,3 +1,5 @@
+/*--------LOGIN----------*/
+
 .nazvanie{
     font-family: "Montserrat", sans-serif;
     font-size: 90px;
@@ -26,7 +28,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/fronted/img/фон.svg) no-repeat;
+    background: url(/Service-Exchange/frontend/img/фон.svg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -126,7 +128,9 @@ body{
     color: rgba(82, 91, 214, 1);
 }
 
-/*------------------------------------------------*/
+
+/*--------------REG--------------*/
+
 
 .name{
     top: 143px;
