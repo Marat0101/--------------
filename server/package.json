@@ -1,14 +1,15 @@
 {
-  "name": "server",
+  "name": "clone2",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Marat0101",
   "license": "ISC",
-  "description": "",
+  "description": "lab",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
@@ -20,6 +21,16 @@
     "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
-  }
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marat0101/Service-Exchange.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Marat0101/Service-Exchange/issues"
+  },
+  "homepage": "https://github.com/Marat0101/Service-Exchange#readme"
 }
