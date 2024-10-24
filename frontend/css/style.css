@@ -1,0 +1,170 @@
+/*--------LOGIN----------*/
+
+.nazvanie{
+    font-family: "Montserrat", sans-serif;
+    font-size: 90px;
+    font-weight: 800;
+    color:rgba(123, 128, 250, 1);
+    padding-bottom: 100px   ;
+}
+
+.input_box input{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.input_box input::placeholder{
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: f3;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/Service-Exchange/frontend/img/фон.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    border-radius: 20px;
+    position: relative;
+    width: 460px;   
+    height: 566px;
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+    left: 186px;
+}
+
+.wrapper h1{
+    font-family: Mitr;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 59.66px;
+    text-align: center;
+    padding: 37px;
+}
+
+.input-box input{
+    position: absolute;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-family: Mitr;
+    width: 343px;
+    height: 56px;
+    font-size: 21px;
+    color: black;
+    padding: 12px 0px 12px 14px;
+}
+
+.email{
+    top: 143px;
+    left: 58px;
+}   
+.password{ 
+    top: 216px;
+    left: 58px;
+}
+.forget a{
+    font-family: Mits;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+    position: absolute;
+    top: 284px;
+    left: 72px;
+    text-decoration: none;
+    color: rgba(82, 91, 214, 1);
+}
+.btn{
+    cursor: pointer;
+    border: none;
+    position: absolute; 
+    width: 357px;
+    height: 43px;
+    top: 336px;
+    left: 58px;
+    background:linear-gradient(to right,#E7B7E7,#625AD2) ;
+}
+.input-box input::placeholder{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    text-align: left;
+    font-family: Mitr;
+    color: black;
+}
+.q{
+    position: relative;
+    font-family: Mitr;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 59.66px;
+    bottom: 10px;
+}
+.reg p{
+    position: absolute;
+    top: 393px;
+    left: 59px;
+    font-family: Mitr;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    padding: 14px 0px 0px 14px;
+}
+.regs{
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+    color: rgba(82, 91, 214, 1);
+}
+
+
+/*--------------REG--------------*/
+
+
+.name{
+    top: 143px;
+    left: 58px;
+}
+.email-reg{ 
+    top: 216px;
+    left: 58px;
+}
+.password-reg{
+    top: 286px;
+    left: 58px;
+}
+.btn-reg{
+    cursor: pointer;
+    border: none;
+    position: absolute; 
+    width: 357px;
+    height: 43px;
+    top: 379px;
+    left: 58px;
+    background:linear-gradient(to right,#E7B7E7,#625AD2) ;
+}
+
+.log p{
+    position: absolute;
+    top: 439px;
+    left: 59px;
+    font-family: Mitr;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    padding: 14px 0px 0px 14px;
+}
+
+
+/*--------------USLUGI--------------*/
