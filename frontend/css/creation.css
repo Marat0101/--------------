@@ -1,0 +1,195 @@
+
+
+.wrapper{
+    font-family: "Montserrat", sans-serif;
+    max-width: 1366px;/*для выравнивания текста*/
+    margin: 0 auto;
+}
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 96px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+}
+p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.kolvo label,
+.days label,
+.pay label,
+.garantiya label{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+
+/*Название*/
+.name{
+    display: flex;
+    position: relative;
+    top: 42px;
+}
+.name input{
+    font-size: 24px;
+    position: relative;
+    outline: none;
+    border: 1px solid transparent;
+    border-color: rgba(109, 121, 247, 1);
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    left:190px;
+    top: 15px;
+}
+
+
+/*Опыт работы*/
+.exp{
+    display: flex;
+    position: relative;
+    top: 53px;
+}
+.exp select{
+    font-size: 24px;
+    position: relative;
+    border-color: rgba(109, 121, 247, 1);
+    outline: none;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    left: 226px;
+    top: 15px;
+}
+.exp option{
+    font-size: 18px;
+}
+
+
+/*Состав рабочих*/
+.kolvo{
+    display: flex;
+    position: relative;
+    top: 53px;
+}
+.kolvo li{
+    display: flex;
+    align-items : center;
+}
+.kolvo input, label{
+    position: relative;
+    left: 33px;
+    top:5px;
+}
+.kolvo input{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+.kolvo label {
+    margin-left: 10px;
+}
+
+
+/*Оплата*/
+.pay{
+    display: flex;
+    position: relative;
+    top: 53px;
+}
+.radio{
+    display: none;
+}
+.pay form{
+    position: relative;
+    top: 20px;
+    left: 140px;
+}
+.label{
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid rgba(109, 121, 247, 1);
+    border-radius: 10px;
+}
+#size-1:checked ~ .label-1,
+#size-2:checked ~ .label-2
+{
+    background-color: rgba(109, 121, 247, 1);
+}
+
+
+/*Гарантия*/
+.garantiya{
+    display: flex;
+    position: relative;
+    top: 53px;
+}
+.radio_gar{
+    display: none;
+}
+.garantiya form{
+    position: relative;
+    top: 20px;
+    left: 236px;
+}
+.label_gar{
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid rgba(109, 121, 247, 1);
+    border-radius: 10px;
+}
+#size_gar-1:checked ~ .label_gar-1,
+#size_gar-2:checked ~ .label_gar-2
+{
+    background-color: rgba(109, 121, 247, 1);
+}
+
+
+
+.checkboxes__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.checkboxes__items {
+    /*************************/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*************************/
+    max-width: 330px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkboxes__item {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.checkboxes__item-hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+/* .timefon{
+    width:100px;
+    height:100px;
+    background: black;
+} */
+
+

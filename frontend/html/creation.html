@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <title>Document</title>
+    <link rel="stylesheet" href="/frontend/css/creation.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Создание услуги</h1>
+        <h2 style="position: relative; top: 42px;">Подробности</h2>
+        <div class="name">
+            <p>Название услуги</p>
+            <input type="text">
+        </div>
+        <form class="exp">
+            <p>Опыт работы</p>
+            <select name="city" id="city-select">
+                <option value=""></option>
+                <option value="">Меньше года</option>
+                <option value="">1 год</option>
+                <option value="">2 года</option>
+                <option value="">3 года</option>
+                <option value="">4 года</option>
+                <option value="">5 лет</option>
+                <option value="">6 лет</option>
+                <option value="">7 лет</option>
+                <option value="">8 лет</option>
+                <option value="">9 лет</option>
+                <option value="">10 лет и более</option>
+            </select>
+        </form>
+        <div class="kolvo">
+            <p>Каким составом работаете</p>
+            <ul>
+                <li>
+                    <input id="1chel" type="checkbox">
+                    <label for="1chel">1 человек</label>
+                </li>
+                <li>
+                    <input id="2-4" type="checkbox">
+                    <label for="2-4">2 - 4 человека</label>
+                </li>
+                <li>
+                    <input id="5-10" type="checkbox">
+                    <label for="5-10">5 - 10 человек</label>
+                </li>
+                <li>
+                    <input id="10chel" type="checkbox">
+                    <label for="10chel">от 10 человек</label>
+                </li>
+            </ul>
+        </div>
+        <div class="pay">
+            <p>Поэтапная оплата</p>
+            <form>
+                <input type="radio" id="size-1" name="size" class="radio">
+                <label class="label label-1" for="size-1">Возможна</label>
+                <input type="radio" id="size-2" name="size" class="radio">
+                <label class="label label-2" for="size-2">Нет</label>
+            </form>
+        </div>
+        <div class="garantiya">
+            <p>Гарантия</p>
+            <form>
+                <input type="radio" id="size_gar-1" name="size_gar" class="radio_gar">
+                <label class="label_gar label_gar-1" for="size_gar-1">Есть</label>
+                <input type="radio" id="size_gar-2" name="size_gar" class="radio_gar">
+                <label class="label_gar label_gar-2" for="size_gar-2">Нету</label>
+            </form>
+        </div>
+        <h2 style="position: relative; top: 42px;">График работы</h2>
+        <div class="days">
+            <div class="checkboxes__title">Дни</div>
+            <div class="checkboxes__items">
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox" value="1" />
+                    <span class="checkbox__label">
+                        Понедельник
+                    </span>
+                </label>
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox" value="1" />
+                    <span class="checkbox__label">
+                        Вторник
+                    </span>
+                </label>
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox" value="1" />
+                    <span class="checkbox__label">
+                        Среда
+                        </span>
+                </label>
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox" value="1" />
+                    <span class="checkbox__label">
+                        Четверг
+                    </span>
+                </label>
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox" value="1" />
+                    <span class="checkbox__label">
+                        Пятница
+                    </span>
+                </label>
+            
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox" value="1" />
+                    <span class="checkbox__label">
+                        Суббота
+                    </span>
+                </label>
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox" value="1" />
+                    <span class="checkbox__label">
+                        Воскресенье
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="timefon"></div>
+        <div class="time" style="position: relative; top: 50px;">
+            <p>Время работы с</p>
+            <input type="text" maxlength="2" />
+            <input type="text" maxlength="2" />
+            <p>Время работы до</p>
+            <input type="text" maxlength="2" />
+            <input type="text" maxlength="2" />
+        </div>
+        <p>Дни, когда вы на связи</p>
+        <form class="days">
+            <input id="pon" type="checkbox">
+            <label for="pon">Понедельник</label>
+            <input id="vtornik" type="checkbox">
+            <label for="vtornik">Вторник</label>
+            <input id="sreda" type="checkbox">
+            <label for="sreda">Среда</label>
+            <input id="chetverg" type="checkbox">
+            <label for="chetverg">Четверг</label>
+            <input id="pyantica" type="checkbox">
+            <label for="pyantica">Пятница</label>
+            <input id="subbota" type="checkbox">
+            <label for="subbota">Суббота</label>
+            <input id="voskr" type="checkbox">
+            <label for="voskr">Воскресенье</label>
+        </form>
+        <!-- <div class="timefon"></div>
+        <div class="time">
+            <p>Вы на связи с</p>
+            <input type="text" maxlength="2" />
+            <input type="text" maxlength="2" />
+            <p>Вы на связи до</p>
+            <input type="text" maxlength="2" />
+            <input type="text" maxlength="2" />
+        </div> -->
+    </div>            
+</body>
+</html>
