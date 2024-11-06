@@ -10,11 +10,14 @@
 
 
     <title>Document</title>
-    <link rel="stylesheet" href="/frontend/css/creation.css">
+    <link rel="stylesheet" href="/Service-Exchange/frontend/css/creation.css">
 </head>
 <body>
     <div class="wrapper">
-        <h1>Создание услуги</h1>
+        <div style="display: flex;">
+            <img class="logo" src="/Service-Exchange/frontend/img/Group 5 (1).png" alt="">
+            <h1>Создание услуги</h1>
+        </div>
         <h2 style="position: relative; top: 42px;">Подробности</h2>
         <div class="name">
             <p>Название услуги</p>
@@ -134,23 +137,54 @@
             <input type="text" maxlength="2" />
             <input type="text" maxlength="2" />
         </div>
-        <p>Дни, когда вы на связи</p>
-        <form class="days">
-            <input id="pon" type="checkbox">
-            <label for="pon">Понедельник</label>
-            <input id="vtornik" type="checkbox">
-            <label for="vtornik">Вторник</label>
-            <input id="sreda" type="checkbox">
-            <label for="sreda">Среда</label>
-            <input id="chetverg" type="checkbox">
-            <label for="chetverg">Четверг</label>
-            <input id="pyantica" type="checkbox">
-            <label for="pyantica">Пятница</label>
-            <input id="subbota" type="checkbox">
-            <label for="subbota">Суббота</label>
-            <input id="voskr" type="checkbox">
-            <label for="voskr">Воскресенье</label>
-        </form>
+        <div class="days">
+            <div class="checkboxes__title">Дни</div>
+            <div class="checkboxes__items">
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox">
+                    <span class="checkbox__label">
+                        Понедельник
+                    </span>
+                </label>
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox">
+                    <span class="checkbox__label">
+                        Вторник
+                    </span>
+                </label>
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox">
+                    <span class="checkbox__label">
+                        Среда
+                        </span>
+                </label>
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox">
+                    <span class="checkbox__label">
+                        Четверг
+                    </span>
+                </label>
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox">
+                    <span class="checkbox__label">
+                        Пятница
+                    </span>
+                </label>
+            
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox">
+                    <span class="checkbox__label">
+                        Суббота
+                    </span>
+                </label>
+                <label class="checkboxes__item">
+                    <input class="checkboxes__input" type="checkbox">
+                    <span class="checkbox__label">
+                        Воскресенье
+                    </span>
+                </label>
+            </div>
+        </div>ю
         <!-- <div class="timefon"></div>
         <div class="time">
             <p>Вы на связи с</p>

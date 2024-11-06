@@ -28,7 +28,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/Service-Exchange/frontend/img/фон.svg) no-repeat;
+    background: url(/frontend/img/фон.svg) no-repeat;
     background-size: cover;
     background-position: center;
 }
