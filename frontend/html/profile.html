@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/frontend/css/profile.css">
+    <title>Профиль пользователя</title>
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Профиль пользователя</h1>
+        <div class="profile-info">
+            <img id="profilePhoto" src="default-avatar.png" alt="Фото профиля" class="profile-photo">
+            <div>
+                <label>Имя:</label>
+                <span id="userName">Алена</span>
+                <br>
+                <label>Фамилия:</label>
+                <span id="userSurname">Романова</span>
+                <br>
+                <label>Номер телефона:</label>
+                <span id="userPhone">+7 123 456 78 90</span>
+                <br>
+                <label>С какого года на Авито:</label>
+                <span id="userSince">2020</span>
+                <br>
+                <label>Отзывы:</label>
+                <span id="userReviews">5</span>
+                <br>
+            </div>
+        </div>
+        <button id="editButton">Редактировать</button>
+    </div>
+
+    <div class="edit-container" style="display: none;">
+        <h2>Редактировать профиль</h2>
+        <label>Фото профиля:</label>
+        <input type="file" id="editPhoto" accept="image/*">
+        <br>
+        <label>Имя:</label>
+        <input type="text" id="editName" value="Алена">
+        <br>
+        <label>Фамилия:</label>
+        <input type="text" id="editSurname" value="Романова">
+        <br>
+        <label>Номер телефона:</label>
+        <input type="tel" id="editPhone" value="+7 123 456 78 90">
+        <br>
+        <label>С какого года на Авито:</label>
+        <input type="number" id="editSince" value="2020">
+        <br>
+        <label>Отзывы:</label>
+        <input type="number" id="editReviews" value="5">
+        <br>
+        <button id="saveButton">Сохранить</button>
+        <button id="cancelButton">Отмена</button>
+    </div>
+
+    <script src="/frontend/js/profile.js"></script>
+</body>
+</html>
