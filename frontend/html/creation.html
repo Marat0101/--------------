@@ -10,19 +10,24 @@
 
 
     <title>Document</title>
-    <link rel="stylesheet" href="/Service-Exchange/frontend/css/creation.css">
+    <link rel="stylesheet" href="/frontend/css/creation.css">
 </head>
 <body>
     <div class="wrapper">
-        <div style="display: flex;">
-            <img class="logo" src="/Service-Exchange/frontend/img/Group 5 (1).png" alt="">
+        <div class="logo">
+            <a href=""><img src="/frontend/img/логотип.png" alt=""></a>
             <h1>Создание услуги</h1>
         </div>
         <h2 style="position: relative; top: 42px;">Подробности</h2>
+
+        <!----- Название услуги ----->
+
         <div class="name">
             <p>Название услуги</p>
             <input type="text">
         </div>
+        <!----- Опыт работы ----->
+        
         <form class="exp">
             <p>Опыт работы</p>
             <select name="city" id="city-select">
@@ -40,6 +45,9 @@
                 <option value="">10 лет и более</option>
             </select>
         </form>
+
+        <!----- Состав рабочих ----->
+
         <div class="kolvo">
             <p>Каким составом работаете</p>
             <ul>
@@ -61,6 +69,9 @@
                 </li>
             </ul>
         </div>
+
+        <!----- Оплата ----->
+
         <div class="pay">
             <p>Поэтапная оплата</p>
             <form>
@@ -70,6 +81,9 @@
                 <label class="label label-2" for="size-2">Нет</label>
             </form>
         </div>
+
+        <!----- Гарантия ----->
+
         <div class="garantiya">
             <p>Гарантия</p>
             <form>
@@ -79,121 +93,113 @@
                 <label class="label_gar label_gar-2" for="size_gar-2">Нету</label>
             </form>
         </div>
+
+        <!----- Дни недели ----->
         <h2 style="position: relative; top: 42px;">График работы</h2>
         <div class="days">
             <div class="checkboxes__title">Дни</div>
             <div class="checkboxes__items">
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox" value="1" />
-                    <span class="checkbox__label">
+                <label class="checkboxes__label1">
+                    <input type="checkbox">
+                    <span>
                         Понедельник
                     </span>
                 </label>
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox" value="1" />
-                    <span class="checkbox__label">
+                <label class="checkboxes__label1">
+                    <input type="checkbox">
+                    <span>
                         Вторник
                     </span>
                 </label>
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox" value="1" />
-                    <span class="checkbox__label">
+                <label class="checkboxes__label1">
+                    <input type="checkbox">
+                    <span>
                         Среда
                         </span>
                 </label>
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox" value="1" />
-                    <span class="checkbox__label">
+                <label class="checkboxes__label1">
+                    <input type="checkbox">
+                    <span>
                         Четверг
                     </span>
                 </label>
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox" value="1" />
-                    <span class="checkbox__label">
+                <label class="checkboxes__label1">
+                    <input type="checkbox">
+                    <span>
                         Пятница
                     </span>
                 </label>
             
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox" value="1" />
-                    <span class="checkbox__label">
+                <label class="checkboxes__label1">
+                    <input type="checkbox">
+                    <span>
                         Суббота
                     </span>
                 </label>
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox" value="1" />
-                    <span class="checkbox__label">
+                <label class="checkboxes__label1">
+                    <input type="checkbox">
+                    <span>
                         Воскресенье
                     </span>
                 </label>
             </div>
-        </div>
-        <div class="timefon"></div>
-        <div class="time" style="position: relative; top: 50px;">
-            <p>Время работы с</p>
-            <input type="text" maxlength="2" />
-            <input type="text" maxlength="2" />
-            <p>Время работы до</p>
-            <input type="text" maxlength="2" />
-            <input type="text" maxlength="2" />
-        </div>
-        <div class="days">
-            <div class="checkboxes__title">Дни</div>
-            <div class="checkboxes__items">
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox">
-                    <span class="checkbox__label">
-                        Понедельник
-                    </span>
-                </label>
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox">
-                    <span class="checkbox__label">
-                        Вторник
-                    </span>
-                </label>
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox">
-                    <span class="checkbox__label">
-                        Среда
-                        </span>
-                </label>
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox">
-                    <span class="checkbox__label">
-                        Четверг
-                    </span>
-                </label>
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox">
-                    <span class="checkbox__label">
-                        Пятница
-                    </span>
-                </label>
-            
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox">
-                    <span class="checkbox__label">
-                        Суббота
-                    </span>
-                </label>
-                <label class="checkboxes__item">
-                    <input class="checkboxes__input" type="checkbox">
-                    <span class="checkbox__label">
-                        Воскресенье
-                    </span>
-                </label>
-            </div>
-        </div>ю
-        <!-- <div class="timefon"></div>
+        </div><br><br><br>
+
+        <!----- Время работы -----> 
         <div class="time">
-            <p>Вы на связи с</p>
-            <input type="text" maxlength="2" />
-            <input type="text" maxlength="2" />
-            <p>Вы на связи до</p>
-            <input type="text" maxlength="2" />
-            <input type="text" maxlength="2" />
-        </div> -->
-    </div>            
+            <p>Время работы с</p>
+            <input type="time">
+        </div>
+        <!----- Дни недели2 ----->
+
+        <div class="days">
+            <div class="checkboxes__title">Дни, когда вы на связи</div>
+            <div class="checkboxes__items">
+                <label class="checkboxes__label2">
+                    <input type="checkbox">
+                    <span>
+                        Понедельник
+                    </span>
+                </label>
+                <label class="checkboxes__label2">
+                    <input type="checkbox">
+                    <span>
+                        Вторник
+                    </span>
+                </label>
+                <label class="checkboxes__label2">
+                    <input type="checkbox">
+                    <span>
+                        Среда
+                        </span>
+                </label>
+                <label class="checkboxes__label2">
+                    <input type="checkbox">
+                    <span>
+                        Четверг
+                    </span>
+                </label>
+                <label class="checkboxes__label2">
+                    <input type="checkbox">
+                    <span>
+                        Пятница
+                    </span>
+                </label>
+                <label class="checkboxes__label2">
+                    <input type="checkbox">
+                    <span>
+                        Суббота
+                    </span>
+                </label>
+                <label class="checkboxes__label2">
+                    <input type="checkbox">
+                    <span>
+                        Воскресенье
+                    </span>
+                </label>
+            </div>
+        </div>
+        
+    </div>        
 </body>
 </html>

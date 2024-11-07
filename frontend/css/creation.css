@@ -1,4 +1,4 @@
-    
+
 
 .wrapper{
     font-family: "Montserrat", sans-serif;
@@ -31,10 +31,15 @@ p{
 }
 
 
-/*Логотип*/
+/*логотип*/
 .logo{
-    width: 250px;
-    height: 100px;
+    display: flex;
+}
+.logo img{
+    width: 300px;
+    height: 130px;
+    position: relative;
+    top: 10px;
 }
 
 
@@ -102,6 +107,7 @@ p{
 }
 .kolvo label {
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 
@@ -161,58 +167,52 @@ p{
 }
 
 
-
 /*Дни недели*/
-.days input{
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-}
-.days label{
-    display: flex;
-    align-items : center;
-}
-.days span{
-    margin-left: 10px;
-}
 .days{
     display: flex;
     position: relative;
-    top: 42px;
+    top: 53px;
 }
 .checkboxes__title {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 30px;
 }
 .checkboxes__items {
     display: grid;
-    grid-template-columns: 270px 270px;
-    grid-template-rows:20px 50px 20px 50px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 350px;
     width: 100%;
 }
-.checkboxes__item {
-    left: 325px;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 30px;
-    display: block;
-    margin-bottom: 20px;
+.checkboxes__label1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 330px;
+    margin-bottom: 10px;
 }
-.checkboxes__item-hidden {
-    display: none;
+.days input{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.days span{
+    margin-left: 10px;
+}
+
+.checkboxes__label2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 118px;
+    margin-top: 10px;
 }
 
 
-/*Время работы*/
-
-
-
-
-/* .timefon{
-    width:100px;
-    height:100px;
-    background: black;
-} */
-
-
+.time{
+    display: flex;
+}
+.time input{
+    border-radius: 10px;
+    height: 30px;
+}
