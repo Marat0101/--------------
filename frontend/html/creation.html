@@ -13,12 +13,15 @@
     <link rel="stylesheet" href="/frontend/css/creation.css">
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper">   
         <div class="logo">
-            <a href=""><img src="/frontend/img/логотип.png" alt=""></a>
+            <a href="/frontend/html/uslugi.html"><img src="/frontend/img/logo.png" alt=""></a>
             <h1>Создание услуги</h1>
         </div>
-        <h2 style="position: relative; top: 42px;">Подробности</h2>
+
+        <!--======Подробности=======-->
+
+        <h2>Подробности</h2>
 
         <!----- Название услуги ----->
 
@@ -45,6 +48,13 @@
                 <option value="">10 лет и более</option>
             </select>
         </form>
+
+        <!----- Адрес ----->
+
+        <div class="address">
+            <p>Ваш адрес</p>
+            <input type="text">
+        </div>
 
         <!----- Состав рабочих ----->
 
@@ -94,8 +104,12 @@
             </form>
         </div>
 
+        <!--=====График работы=====-->
+
+        <h2>График работы</h2>
+
         <!----- Дни недели ----->
-        <h2 style="position: relative; top: 42px;">График работы</h2>
+
         <div class="days">
             <div class="checkboxes__title">Дни</div>
             <div class="checkboxes__items">
@@ -143,63 +157,53 @@
                     </span>
                 </label>
             </div>
-        </div><br><br><br>
-
-        <!----- Время работы -----> 
-        <div class="time">
-            <p>Время работы с</p>
-            <input type="time">
         </div>
-        <!----- Дни недели2 ----->
 
-        <div class="days">
-            <div class="checkboxes__title">Дни, когда вы на связи</div>
-            <div class="checkboxes__items">
-                <label class="checkboxes__label2">
+        <!--=====Описание=====-->
+
+        <h2>Описание</h2>
+        <div class="description">
+            <textarea></textarea>
+            <p>Не указывайте здесь телефон и почту — для них есть отдельные поля</p>
+        </div>
+
+        <!--=====Стоимость=====-->
+
+        <h2>Стоимость одной услуги</h2>
+        <div class="price">
+            <input type="text" placeholder="&#8381;">
+            <input type="text" placeholder="- это цена за...">
+            <label class="checkboxes__price">
+                <br>
+                <div>
                     <input type="checkbox">
                     <span>
-                        Понедельник
+                        это начальная цена
                     </span>
-                </label>
-                <label class="checkboxes__label2">
-                    <input type="checkbox">
-                    <span>
-                        Вторник
-                    </span>
-                </label>
-                <label class="checkboxes__label2">
-                    <input type="checkbox">
-                    <span>
-                        Среда
-                        </span>
-                </label>
-                <label class="checkboxes__label2">
-                    <input type="checkbox">
-                    <span>
-                        Четверг
-                    </span>
-                </label>
-                <label class="checkboxes__label2">
-                    <input type="checkbox">
-                    <span>
-                        Пятница
-                    </span>
-                </label>
-                <label class="checkboxes__label2">
-                    <input type="checkbox">
-                    <span>
-                        Суббота
-                    </span>
-                </label>
-                <label class="checkboxes__label2">
-                    <input type="checkbox">
-                    <span>
-                        Воскресенье
-                    </span>
-                </label>
-            </div>
+                </div>
+            </label>
+        </div>
+
+        <!--=====Фотографии=====-->
+
+        <h2>Фотографии</h2>
+        <div class="photo">   
+            <p>Фотографии</p>
+            <button><img src="/frontend/img/плюсик.png" alt=""></button>
+            <h4>Не более 10</h4>
         </div>
         
-    </div>        
+        <!--=====Контакты=====-->
+
+        <h2>Контакты</h2>
+        <div class="phone">
+            <p>телефон</p>
+            <input type="tel" placeholder="89001234567">
+        </div>
+
+        <!--=====Сохранение=====-->
+        <button class="save">Разместить</button>
+        
+        <br><br><br><br><br>
 </body>
 </html>
