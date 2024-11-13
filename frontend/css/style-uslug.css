@@ -8,14 +8,14 @@
     display: flex;
 }
 .square{
-    position:absolute;
+    position: absolute;
     background-color: rgba(114, 125, 249, 1);
     width: 100%;
-    height: 140px;
+    height: 173px;
 }
 .filtr{
     position: relative;
-    top: 45px;
+    top: 53px;
     right: 11px;
     width: 67px;
     height: 67px;
@@ -38,7 +38,7 @@
     border: none;
     position: relative;
     left: 14px;
-    top: 45px;
+    top: 53px;
     width: 888px;
     height: 65px;
     padding-left: 10px;
@@ -46,7 +46,7 @@
 }
 .search button {
     position: relative; 
-    top: 63px;
+    top: 70px;
     right: 40px;
     width: 33px;
     height: 33px;
@@ -58,9 +58,9 @@
 .wrapper input::placeholder{
     color: black;
 }
-.plus{
+.profile{
     position: relative;
-    top: 45px;
+    top: 53px;
     width: 67px;
     height: 67px;
     border: none;
@@ -78,7 +78,6 @@
     min-height: 100vh;
     background: url(/frontend/img/фон.svg) no-repeat;
     background-size: cover;
-    background-position: 50px;
     background-position: center;
 }
 
