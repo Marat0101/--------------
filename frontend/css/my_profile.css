@@ -1,0 +1,109 @@
+.wrapper{
+    font-family: "Montserrat", sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+}
+label{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 50px;
+}
+span{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+button{
+cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 300px;
+    height: 130px;
+    position: relative;
+    top: 10px;
+}
+.settings img{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-right: 0px;
+}
+
+/*аватарка*/
+.ava{
+    width: 100px;
+    height: 100px;
+    background-color: #928f8f;
+    border-radius: 50%;
+}
+.ava img{
+    width: 50px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+/*Услуги*/
+h2{
+    font-size: 40px;
+    font-weight: 700px;
+    text-align: center;
+}
+.uslugi_my_profile{
+    display: flex;
+    justify-content: center;
+}
+.uslugi_my_profile div{
+    margin: 50px;
+    width: 300px;
+    height: 400px;
+    background-color: #928f8f;
+    border-radius: 10px;
+}
+.uslugi_my_profile img{
+    position: relative;
+    width: 250px;
+    left: 25px;
+}
+.uslugi_my_profile span{
+    position: relative;
+    left: 10px;
+    line-height: 35px;
+}
+.names_uslugi{
+    font-size: 30px;
+}
+
+
+
+
+
+
+/*=====settings=====*/
+.wrapper_set{
+    font-family: "Montserrat", sans-serif;
+    max-width: 1366px;
+    margin: 0 auto;}
+.ava_set{
+    width: 100px;
+    height: 100px;
+    background-color: #928f8f;
+    border-radius: 50%;
+}
+.ava_set img{
+    width: 50px;
+}
